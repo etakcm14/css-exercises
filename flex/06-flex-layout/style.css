@@ -41,38 +41,32 @@ a {
   color: #606060;
 }
 
-a:link { 
-  color: #e0e0e0;
-}
-
 .header, .footer {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 16px;
 }
 
-.header {
-  margin-bottom: auto;
-}
+
+
 
 .footer {
   background-color: #eeeeee; 
-  margin-top: auto;
+
 }
 
-.left-links, .right-links {
+ul {
   display: flex;
   gap: 20px;
+  margin: 0;
+  padding: 0;
 }
 
-.right-links {
-  padding-right: 30px;
-}
 .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 16px;
-  
+  flex: 1  
 }

@@ -21,11 +21,12 @@ img {
 
 }
 
-.one, .two, .three, .four {
+.info {
   display: flex;
   flex-direction: column;
   text-align: center;
   margin: 32px 52px;
+  max-width: 200px;
 }
 
 /* do not edit this footer */

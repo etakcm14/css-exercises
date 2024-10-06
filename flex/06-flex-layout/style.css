@@ -24,3 +24,32 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* new code */
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 10px;
+  align-items: flex-end;
+}
+
+.footer {
+  background-color: #eeeeee; 
+  
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 20px;
+
+}

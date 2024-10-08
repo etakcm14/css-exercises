@@ -57,8 +57,15 @@ body {
   flex: 1;
 }
 
-li {
+ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 16px;
+  
 }
 
 a {
@@ -69,6 +76,5 @@ a {
 .content {
   display: flex;
   flex-wrap: wrap;
-  align-content: space-around;
   padding: 48px;
 }

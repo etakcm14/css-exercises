@@ -11,6 +11,7 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+
   font-size: 32px;
   font-weight: 900;
   display: flex;
@@ -29,6 +30,11 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+
+  display: flex;
+  flex-shrink: 0;
+  font-size: 24px;
+  padding: 16px;
 }
 
 .card {
@@ -41,4 +47,13 @@ body {
 
 .main {
   display: flex;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
